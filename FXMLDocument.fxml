@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200.0" prefWidth="500.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="pogrr_ftpamb.FXMLDocumentController">
+   <children>
+      <Label alignment="CENTER" layoutX="242.0" layoutY="45.0" text="Přenos příjemek pro AMB na FTP" textAlignment="CENTER" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="25.0">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Button layoutX="205.0" layoutY="103.0" mnemonicParsing="false" onAction="#kamlach" text="Poslat Kamlacha" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="75.0" />
+      <Button layoutX="205.0" layoutY="149.0" mnemonicParsing="false" onAction="#Olejar" prefHeight="25.0" prefWidth="103.0" text="Poslat Olejára" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="110.0" />
+      <Button layoutX="205.0" layoutY="197.0" mnemonicParsing="false" onAction="#Pojslova" text="Poslat Pojslovou" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="145.0" />
+      <MenuBar layoutX="61.0" layoutY="2.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Nastavení">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#openSettings" text="Nastavení" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>
